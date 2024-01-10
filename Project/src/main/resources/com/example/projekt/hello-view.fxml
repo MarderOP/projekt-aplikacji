@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="374.0" layoutX="-9.0" layoutY="-14.0" mouseTransparent="true" strokeType="INSIDE" width="565.0">
+               <fill>
+                  <LinearGradient endX="0.5" endY="1.0" startX="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.38823530077934265" green="0.8117647171020508" blue="0.2823529541492462" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.2862745225429535" green="0.4156862795352936" blue="0.8745098114013672" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Rectangle>
+            <ImageView fitHeight="62.0" fitWidth="455.0" layoutX="43.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="58.0" layoutY="124.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="334.0" text="Zobacz wszystkie książki i filmy " />
+            <Button layoutX="58.0" layoutY="204.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="334.0" text="Zobacz wszystkie książki i filmy " />
+            <Button layoutX="58.0" layoutY="282.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="334.0" text="Zobacz wszystkie książki i filmy " />
+      <ImageView fitHeight="115.0" fitWidth="141.0" layoutX="401.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
